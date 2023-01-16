@@ -1,0 +1,56 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Caveat', cursive;
+}
+
+header {
+    background-color: #fff;
+}
+
+.text-blue {
+    color: #2479aa;
+}
+
+.text-green {
+    color: #2ebe8e;
+}
+
+#sobre {
+    background-color: #cdebfd;
+}
+
+#quartos {
+    background-color: #cdebfd;
+}
+
+#quartos img {
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#quartos img:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #cdebfd;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Sereia Maceió</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top" id="cabecalho">
+        <div class="container">
+            <h1 class="m-0 text-blue">Hotel Sereia Maceió</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a href="#sobre" class="nav-link active">
+                            <i class="bi bi-building"></i>
+                            Sobre o hotel
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#quartos" class="nav-link">
+                            <i class="bi bi-key"></i>
+                            Quartos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-telephone"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/mcz1.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/mcz2.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/mcz3.jpg" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/hotel.jpg" class="d-block w-100 rounded" alt="Foto do hotel">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2><span class="text-blue">Sobre</span> <span class="text-green">o hotel</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed enim vel doloribus harum consectetur laudantium earum veritatis reprehenderit ratione quo tempore odit quae at quasi rem, suscipit quidem aperiam repellat.
+                            </p>
+                            <h2><span class="text-blue">Sobre</span> <span class="text-green">o espaço</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ipsa, sequi, nulla facilis maiores placeat sit, voluptatum tempora impedit dolores accusantium. Ut, labore fugit quis expedita aperiam eius consectetur et!
+                            </p>
+                            <ul>
+                                <li>Café da manhã incluso</li>
+                                <li>Atividades para lazer</li>
+                                <li>Passeio turístico com guia</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row mt-4">
+                    <h2 class="text-center mb-5"><span class="text-blue">Eventos</span> <span class="text-green">Semanais</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="./images/evento1.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="text-blue">
+                            <i class="bi bi-music-note-beamed"></i>
+                            Música ao vivo
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non suscipit voluptates nesciunt laborum maiores omnis accusantium dolores, eligendi perspiciatis veniam numquam eveniet praesentium inventore vel cum voluptate! Enim, asperiores id.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/evento2.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3  class="text-green">
+                            <i class="bi bi-balloon"></i>
+                            Jogos na área kids
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non suscipit voluptates nesciunt laborum maiores omnis accusantium dolores, eligendi perspiciatis veniam numquam eveniet praesentium inventore vel cum voluptate! Enim, asperiores id.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/evento3.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="text-blue">
+                            <i class="bi bi-map"></i>
+                            Passeio com guia
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non suscipit voluptates nesciunt laborum maiores omnis accusantium dolores, eligendi perspiciatis veniam numquam eveniet praesentium inventore vel cum voluptate! Enim, asperiores id.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="quartos">
+            <div class="container pb-5">
+                <div class="row p-4">
+                    <h2 class="text-center mb-5 mt-5">
+                        <span class="text-blue">Opções</span>  <span class="text-green">de quartos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#quartos-individuais" class="text-start nav-link active">Quartos individuais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#quartos-duplos" class="text-start nav-link">Quartos duplos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#quartos-triplos" class="text-start nav-link">Quartos triplos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#suites-premium" class="text-start nav-link">Suíte premium</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#suites-presidenciais" class="text-start nav-link">Suíte presidencial</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="quartos-individuais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/quartos/individual/01.jpg" alt="">
+                                        <h5 class="text-blue mt-2">Quarto individual</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/quartos/individual/02.jpg" alt="">
+                                        <h5 class="text-blue mt-2">Quarto individual</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/quartos/individual/03.jpg" alt="">
+                                        <h5 class="text-blue mt-2">Quarto individual</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/quartos/individual/04.jpg" alt="">
+                                        <h5 class="text-blue mt-2">Quarto individual</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/quartos/individual/05.jpg" alt="">
+                                        <h5 class="text-blue mt-2">Quarto individual</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="quartos-duplos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/quartos/duplo/01.jpg" alt="">
+                                        <h5 class="text-blue mt-2">Quarto duplo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/quartos/duplo/02.jpg" alt="">
+                                        <h5 class="text-blue mt-2">Quarto duplo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/quartos/duplo/03.jpg" alt="">
+                                        <h5 class="text-blue mt-2">Quarto duplo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/quartos/duplo/04.jpg" alt="">
+                                        <h5 class="text-blue mt-2">Quarto duplo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/quartos/duplo/05.jpg" alt="">
+                                        <h5 class="text-blue mt-2">Quarto duplo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="quartos-triplos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/quartos/triplo/01.jpg" alt="">
+                                        <h5 class="text-blue mt-2">Quarto triplo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/quartos/triplo/02.jpg" alt="">
+                                        <h5 class="text-blue mt-2">Quarto triplo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/quartos/triplo/03.jpg" alt="">
+                                        <h5 class="text-blue mt-2">Quarto triplo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/quartos/triplo/04.jpg" alt="">
+                                        <h5 class="text-blue mt-2">Quarto triplo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="suites-premium">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/quartos/premium/01.jpg" alt="">
+                                        <h5 class="text-blue mt-2">Suite premium</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/quartos/premium/02.jpg" alt="">
+                                        <h5 class="text-blue mt-2">Suite premium</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/quartos/premium/03.jpg" alt="">
+                                        <h5 class="text-blue mt-2">Suite premium</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="suites-presidenciais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/quartos/presidencial/01.jpg" alt="">
+                                        <h5 class="text-blue mt-2">Suite presidencial</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/quartos/presidencial/02.jpg" alt="">
+                                        <h5 class="text-blue mt-2">Suite presidencial</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/quartos/presidencial/03.jpg" alt="">
+                                        <h5 class="text-blue mt-2">Suite presidencial</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center mt-5 mb-5">
+                        <span class="text-blue">Entre</span> <span class="text-green">em contato</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success mt-3">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="text-blue">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-2 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="text-blue">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua de asfalto, 123 Ponta Verde - Maceió - AL
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="mt-5">
+            <div class="container text-center p-5">
+                <p>
+                    &copy; Hotel Sereia Maceió<br>Por: Victor Freire Oliveira
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
